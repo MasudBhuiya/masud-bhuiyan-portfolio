@@ -31,7 +31,9 @@ const Contact = () => {
 
 
     return (
-        <div id="contact" className="md:py-10 bg-slate-900">
+       <div>
+        
+         <div id="contact" className="md:py-10 bg-slate-900">
              <h1 className="text-4xl md:text-5xl text-center font-bold mt-20 mb-20 text-white">Contact <span className="text-cyan-400">Me!</span></h1>
              <div className=" px-7">
                  <div className="lg:w-[70%] mx-auto">
@@ -65,6 +67,7 @@ const Contact = () => {
                 
              </div>
          </div>
+       </div>
     );
 };
 
