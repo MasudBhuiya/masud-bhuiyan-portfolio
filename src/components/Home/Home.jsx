@@ -16,23 +16,25 @@ import './Home.css';
 import TeamProjects from "../TeamProjects/TeamProjects";
 
 const Home = () => {
-    useEffect(() => {
-        AOS.init({
-          duration: 1000, // Animation duration in milliseconds
-          easing: 'ease-in-out', // Easing function for animations
-          once: true, // Whether the animation should occur only once
-        });
-      }, []);
+    // useEffect(() => {
+    //     AOS.init({
+    //       duration: 1000, // Animation duration in milliseconds
+    //       easing: 'ease-in-out', // Easing function for animations
+    //       once: true, // Whether the animation should occur only once
+    //     });
+    //   }, []);
     return (
         <>
-            <div data-aos="zoom-in"><Navbar></Navbar></div>
-        <div className="bg-slate-900 max-w-screen-2xl mx-auto ">
-            <div data-aos="zoom-in"><Banner></Banner></div>
-            <div data-aos="zoom-in"><About></About></div>
-            <div data-aos="zoom-in"><Skills></Skills></div>
-            <div data-aos="zoom-in"><Projects></Projects></div>
-            <div data-aos="zoom-in"><TeamProjects></TeamProjects></div>
-            <div data-aos="zoom-in"><Contact></Contact></div>
+        <App></App>
+            <div><Navbar></Navbar></div>
+        <div className=" max-w-screen-2xl mx-auto ">
+            <div><Banner></Banner></div>
+            <div><About></About></div>
+            <div><Skills></Skills></div>
+            <div><Projects></Projects></div>
+            <div><TeamProjects></TeamProjects></div>
+            <div><Contact></Contact></div>
+            {/* <div data-aos="zoom-in"><Contact></Contact></div> */}
         </div>
             <div ><Footer></Footer></div>
         </>

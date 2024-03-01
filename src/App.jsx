@@ -24,6 +24,9 @@ const particlesLoaded = useCallback(async container => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
+                fullScreen : {
+                    zIndex : -1,
+                },
                 background: {
                     color: {
                         value: "#03031a",

@@ -2,13 +2,13 @@
 // import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter, } from "react-icons/fa";
-
+import './Banner.css'
 const Banner = () => {
     return (
         <div id="banner" className="py-5 w-full md:py-10">
   <div className="md:flex p-7 md:justify-between">
     <div className=" md:w-[30%] md:order-1">
-        <img className=" rounded-e-full shadow-xl border-8 border-cyan-400 shadow-cyan-600 hover:shadow-2xl hover:shadow-cyan-600 rounded-b-full h-[300px]" src="https://i.ibb.co/ckVML4T/profile.png" alt="" />
+        <img className=" rounded-e-full shadow-xl border-8 border-cyan-400 shadow-cyan-600 hover:shadow-2xl image hover:shadow-cyan-600  rounded-b-full w-[350px] h-[350px]" src="https://i.ibb.co/ckVML4T/profile.png" alt="" />
             
     </div>
     

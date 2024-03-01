@@ -4,11 +4,11 @@ import App from "../../App";
 
 const About = () => {
     return (
-        <div id="about" className="md:py-16 bg-slate-900">
+        <div id="about" className="md:py-16 ">
            
             <div className="md:flex gap-12 items-center justify-center px-7">
                 <div className="md:w-[35%]">
-                    <img className="flex items-center w-[380px] shadow-xl border-8 border-cyan-400 shadow-cyan-600 hover:shadow-2xl hover:shadow-cyan-600 rounded-xl justify-center" src="https://i.ibb.co/ckVML4T/profile.png" alt="" />
+                    <img className="flex items-center w-[380px] shadow-xl border-8 border-cyan-400 rounded-es-[40%] hover:rounded-es-[30%] rounded-tr-[40%] hover:rounded-tr-[30%] duration-500 shadow-cyan-600 hover:shadow-2xl hover:shadow-cyan-600  justify-center" src="https://i.ibb.co/ckVML4T/profile.png" alt="" />
                 </div>
                 <div className=" md:w-[65%] ">
                 <h1 className="text-4xl md:text-5xl mt-10 md:mt-0 font-bold text-white mb-10 ">About <span className="text-cyan-400">Me</span></h1>

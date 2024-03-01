@@ -1,0 +1,12 @@
+.image{
+    position: relative;
+  animation-name: example;
+  animation-duration: 1.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example {
+    0%   {  top:0px;}
+    100% {  top:-45px;}
+  }

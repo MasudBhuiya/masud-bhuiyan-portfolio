@@ -15,7 +15,8 @@ const Navbar = () => {
     <li><Link to='#contact'><p className="hover:text-blue-500 text-lg">Contact</p></Link></li> */}
   </>
     return (
-        <div className="navbar mx-auto p-6 bg-opacity-10 bg-gray-300 ">
+        <div className="max-w-screen-2xl mx-auto">
+          <div className="navbar mx-auto p-6  ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -38,6 +39,7 @@ const Navbar = () => {
     </ul>
   </div>
 </div> 
+        </div>
     );
 };
 

@@ -2,9 +2,9 @@
 
 const Skills = () => {
     return (
-        <div id="skills" className="text-white py-5  lg:mx-10 md:py-10 bg-slate-900 xl:ms-20 px-7">
+        <div id="skills" className="text-white py-5  lg:mx-10 md:py-10  xl:ms-20 px-7">
             <h1 className="text-4xl md:text-5xl text-center font-bold lg:-mx-10 xl:-ms-28 my-10 ">My <span className="text-cyan-400">Skills</span></h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  gap-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 max-w-[1100px] mx-auto gap-8">
                 <div className="card  hover:shadow-lg hover:shadow-cyan-400 md:w-44  bg-slate-800 shadow-2xl">
                     <div className="card-body">
                         <div className="">

@@ -3,9 +3,9 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 import { GrShare } from 'react-icons/gr';
 const TeamProjects = () => {
   return (
-    <div id='teamprojects' className='px-7 md:py-14 bg-slate-900'>
+    <div id='teamprojects' className='px-5 md:py-14 '>
       <h1 className="text-4xl md:text-5xl text-center font-bold mb-10 mt-10 text-white">Team <span className='text-cyan-400'>Projects</span></h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
         <div className="card bg-slate-800  hover:shadow-lg hover:shadow-cyan-400 shadow-xl">
           <figure>
